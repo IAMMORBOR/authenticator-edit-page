@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>Profile edit</title>
+</head>
+<body>
+  <section class="profile-box" id="profile-box">
+    <ul class="profile-box__section">
+      <li class="profile-box__section--list">
+       <a href="#" class="profile-box__link--section">
+          <svg class="profile-box__section--icon">
+              <use xlink:href="./img/sprite.svg.svg#icon-add-user"></use>
+          </svg>
+          <span>My profile</span>
+        </a>
+      </li>
+      <li class="profile-box__section--list">
+        <a href="#" class="profile-box__section--link">
+          <svg class="profile-box__section--icon">
+             <use xlink:href="./img/sprite.svg.svg#icon-users"></use>
+          </svg>
+          <span>group chat</span>
+        </a>
+      </li>
+    </ul>
+    <div class="profile-box__logout--section">
+      <a href="#" class="profile-box__section--link">
+        <svg class="profile-box__logout--icon">
+          <use xlink:href="./img/sprite.svg.svg#icon-login"></use>
+        </svg>
+        <span class="logout-span">logout</span>
+      </a>
+
+    </div>
+
+  </section>
+  <section class="info-section">
+    <div class="info-section__header">
+      <div class="info-sec__logo">
+        <img src="./img/devchallenges.png" alt="logo" class="info-section__logo">
+      </div>
+              <ul class="info-section__ul">
+                  <li class="info-section__ul--list">
+                      <img src="./img/vicky-hladynets-C8Ta0gwPbQg-unsplash.jpg" alt="image" class="info-section__profile-img">
+                  </li>
+                  <li class="info-section__ul--list">
+                      <h6 class="info-section__username">Xanthe Neal</h6>
+                  </li>
+                  <li class="info-section__ul--list"> 
+                    <svg class="info-section__icon">
+                      <a href="#profile-box" class="info-section__icon--link">
+                          <use xlink:href="./img/sprite.svg.svg#icon-triangle-up"></use>
+                      </a>
+                    </svg>
+                  </li>
+              </ul>
+      </div>
+          <div class="info-section__nav">
+            <svg class="info-section__nav--icon">
+              <use xlink:href="./img/sprite.svg.svg#icon-chevron-small-left"></use>
+        </svg>
+          <a href="file:///C:/Users/HP%20USER/Desktop/TESLIM%20PROJECT/personal/index.html?" class="info-section__nav--btn">back</a>
+        </div>
+    </section>
+    <section class="change-info">
+        <div class="change-info__heading">
+            <h3 class="change-info__heading--main">
+              Change Info
+            </h3>
+            <p class="change-info__heading--text">
+              Changes will be reflected to every services
+            </p>
+        </div>
+        <div class="change-info__user-section">
+            <img src="./img/vicky-hladynets-C8Ta0gwPbQg-unsplash.jpg" alt="user photo" class="change-info__user-section--dp">
+            <p class="change-info__user-section--action">
+              CHANGE PHOTO
+            </p>
+            <svg class="change-info__user-section__icon">
+              <use xlink:href="./img/sprite.svg.svg#icon-camera" class="user-icon"></use>
+            </svg>
+        </div>
+        <form action="#" class="form-section">
+          <label for="name" class="form-section__label">name</label><br>
+          <input type="text" class="form-section__input" placeholder=" Enter your name..." id="name" required><br>
+          <label for="message" class="form-section__label">Bio</label><br>
+          <textarea class="form-section__textarea" rows="10" cols="50" placeholder="enter your profile" required></textarea><br>
+          <label for="tel-number" class="form-section__label">phone</label><br>
+          <input type="tel" class="form-section__input" placeholder=" Enter your phone..." id="tel-number" required><br>
+          <label for="email" class="form-section__label">email</label><br>
+          <input type="email" class="form-section__input" placeholder=" Enter your email..." id="email" required><br>
+          <label for="password" class="form-section__label">password</label><br>
+          <input type="password" class="form-section__input" placeholder=" Enter your new password..." id="password" required><br>
+          <button class="form-section__btn">save</button>
+        </form>
+        
+        <!-- <a href="../personal/index.html">Personal</a> -->
+    </section>
+</body>
+</html>
