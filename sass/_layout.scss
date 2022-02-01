@@ -40,12 +40,13 @@
             }
         }
     }
-    @media only screen and (max-width:37.5em) {
+     @media only screen and (max-width:75em) {
         width: 17.7rem;
-        top: 5%;
+        top: 8%;
         right: 2%;
      }
 }
+
 span{
     color: var(--color-dark-3);
     font-size: 1.3rem;

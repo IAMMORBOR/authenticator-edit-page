@@ -61,10 +61,10 @@ body {
         background-color: #F2F2F2;
         border-radius: .8rem;
         padding: 1rem; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 75em) {
     .profile-box {
       width: 17.7rem;
-      top: 5%;
+      top: 8%;
       right: 2%; } }
 
 span {
