@@ -34,7 +34,7 @@ body {
   height: 17.4rem;
   box-shadow: 1px 1px 8px 4px #c0c0c0;
   position: absolute;
-  top: 15%;
+  top: 13%;
   right: 4%;
   border-radius: 1.2rem;
   display: flex;
@@ -63,8 +63,9 @@ body {
         padding: 1rem; }
   @media only screen and (max-width: 37.5em) {
     .profile-box {
-      margin-top: .2rem;
-      width: 16.7rem; } }
+      width: 17.7rem;
+      top: 20%;
+      right: 2%; } }
 
 span {
   color: var(--color-dark-3);
