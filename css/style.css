@@ -63,7 +63,8 @@ body {
         padding: 1rem; }
   @media only screen and (max-width: 37.5em) {
     .profile-box {
-      margin-top: 1.5rem; } }
+      margin-top: 1.2rem;
+      width: 16.7rem; } }
 
 span {
   color: var(--color-dark-3);
