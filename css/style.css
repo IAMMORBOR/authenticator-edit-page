@@ -64,12 +64,12 @@ body {
   @media only screen and (max-width: 37.5em) {
     .profile-box {
       width: 17.7rem;
-      top: 10%;
+      top: 8.7%;
       right: 2%; } }
   @media only screen and (max-width: 75em) {
     .profile-box {
       width: 17.7rem;
-      top: 12%;
+      top: 19%;
       right: 2%; } }
 
 span {
