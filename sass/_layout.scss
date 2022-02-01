@@ -40,9 +40,14 @@
             }
         }
     }
+    @media only screen and (max-width:37.5em) {
+        width: 17.7rem;
+        top: 10%;
+        right: 2%;
+     }
      @media only screen and (max-width:75em) {
         width: 17.7rem;
-        top: 8%;
+        top: 12%;
         right: 2%;
      }
 }
